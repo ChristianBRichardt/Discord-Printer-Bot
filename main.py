@@ -20,6 +20,8 @@ class Client(discord.Client):
                 channel = Client.get_channel(self, generel_id)
                 await channel.send('Starting to print!')
 
+                
+
 intents = discord.Intents.default()
 intents.message_content = True
 
