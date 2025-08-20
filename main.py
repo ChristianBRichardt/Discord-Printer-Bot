@@ -22,3 +22,4 @@ intents = discord.Intents.default()
 intents.message_content = True
 
 client = Client(intents=intents)
+client.run('ppopo')
