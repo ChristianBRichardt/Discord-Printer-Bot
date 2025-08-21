@@ -56,6 +56,8 @@ class Client(discord.Client):
                 await channel.send('Starting to print!')
         
 
+                
+
 intents = discord.Intents.default()
 intents.message_content = True
 
